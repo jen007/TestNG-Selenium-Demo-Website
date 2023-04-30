@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/jlope/IdeaProjects/TestingNG/Selenium_TestNG_maven/src/test/java/TestCases">
+        <classes>
+            <class name="TestCases.CreateAccount">
+                <methods>
+                    <include name="RegisterWithValidCredentials"/>
+                    <include name="ConfirmSubscription"/>
+                    <include name="ConfirmRuleandPolicy"/>
+                    <include name="ConfirmRegistation"/>
+                </methods>
+            </class>
+            <class name="TestCases.LoginTest">
+                <methods>
+                    <include name="testLoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="TestCases.SelectItem">
+                <methods>
+                    <include name="ItemSelectFromHomePage"/>
+                    <include name="ItemSelectFromHomePage_2"/>
+                    <include name="ItemSelectFromHomePage_3"/>
+                    <include name="ItemSelectFromHomePage_4"/>
+                </methods>
+            </class>
+            <class name="TestCases.TitlePage">
+                <methods>
+                    <include name="testHomePageTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

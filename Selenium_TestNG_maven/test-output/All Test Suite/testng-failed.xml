@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/jlope/IdeaProjects/TestingNG/Selenium_TestNG_maven/src/test/java/TestCases(failed)">
+    <classes>
+      <class name="TestCases.BrowserSetup">
+        <methods>
+          <include name="LastName"/>
+          <include name="MiddleName"/>
+          <include name="Radio"/>
+          <include name="Zipcode"/>
+          <include name="Street"/>
+          <include name="city"/>
+          <include name="Address_two"/>
+          <include name="State"/>
+          <include name="Calender"/>
+          <include name="Firstname"/>
+        </methods>
+      </class> <!-- TestCases.BrowserSetup -->
+    </classes>
+  </test> <!-- C:/Users/jlope/IdeaProjects/TestingNG/Selenium_TestNG_maven/src/test/java/TestCases(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
